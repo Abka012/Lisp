@@ -22,4 +22,7 @@ all: $(FILES)
 
 %: %.c mpc.c
 	$(CC) $(CFLAGS) $^ $(LFLAGS) -o $@
+
+clean:
+	rm -rf $(FILES)
   
