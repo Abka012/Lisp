@@ -6,8 +6,8 @@ static char input[2048];
 int main(int argc, char** argv) {
 
   /* Print Version and Exit Information */
-  puts("Lispy Version 0.0.0.0.1");
-  puts("Press Ctrl+c to Exit\n");
+  puts("Lispy Current Version 0.0.1");
+  puts("Press Ctrl+c to Quit\n");
 
   /* In a never ending loop */
   while (1) {
@@ -19,7 +19,7 @@ int main(int argc, char** argv) {
     fgets(input, 2048, stdin);
 
     /* Echo input back to user */
-    printf("No you're a %s", input);
+    printf("-> %s", input);
   }
 
   return 0;
