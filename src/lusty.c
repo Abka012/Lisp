@@ -1027,12 +1027,12 @@ int main(int argc, char** argv) {
   /* Interactive Prompt */
   if (argc == 1) {
   
-    puts("Lispy Version 0.0.0.1.1");
-    puts("Press Ctrl+c to Exit\n");
+    puts("Lispy Version 0.1.1");
+    puts("Press Ctrl+c to Quit\n");
   
     while (1) {
     
-      char* input = readline("lispy> ");
+      char* input = readline("lusty> ");
       add_history(input);
       
       /* Read from input to create an S-Expr */
