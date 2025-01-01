@@ -38,8 +38,8 @@ int main(int argc, char** argv) {
     ",
     Number, Operator, Expr, Lispy);
   
-  puts("Lispy Version 0.0.0.0.2");
-  puts("Press Ctrl+c to Exit\n");
+  puts("Lispy Version 0.0.2");
+  puts("Press Ctrl+c to Quit\n");
   
   while (1) {
   
